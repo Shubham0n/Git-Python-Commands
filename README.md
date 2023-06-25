@@ -1,21 +1,21 @@
 # **Git Command**
 
-#### Check Git Version and Set config of Git
+#### Check Git Version and Set the config of Git
 
 | Command                                              | Description                                                                        |
 | :--------------------------------------------------- | :--------------------------------------------------------------------------------- |
 | `git --version`                                    | Check Git version                                                                  |
-| **`git config --global user.name`** [name]   | Sor set Global configration of User Name and also check config without adding name |
-| **`git config --global user.email`** [email] | Set Global configration of User Email and also check config without adding email  |
-| **`git config user.name`**                   | Set Username config in particulor folder                                           |
-| **`git config user.email`**                  | Set Email config in particulor folder                                              |
+| **`git config --global user.name`** [name]   | Sor set Global configuration of User Name and also check config without adding name |
+| **`git config --global user.email`** [email] | Set Global configuration of User Email and also check config without adding email  |
+| **`git config user.name`**                   | Set Username config in particular folder                                           |
+| **`git config user.email`**                  | Set Email config in particular folder                                              |
 
 #### Git Status
 
 | Command                          | Type of Result | Description                                                    |
 | -------------------------------- | -------------- | -------------------------------------------------------------- |
-| **`git status`**         | T (Tracked)    | Those file add to the repository (Git knows that file)        |
-|                                  | U (Untracked)  | Working Directory files/ Those file is not added in repository |
+| **`git status`**         | T (Tracked)    | Those files add to the repository (Git knows that file)        |
+|                                  | U (Untracked)  | Working Directory files/ Those files is not added in the repository |
 | **`git status --short`** |                | Check Status                                                   |
 |                                  | ??             | Untracked files                                                |
 |                                  | A              | File add to stage                                              |
@@ -37,13 +37,13 @@
 | `git remote -v`                                                                      | Check configured remotes                                |
 | `git remote rename` [origin] [new name]                                              | Change name of origin                                    |
 | `git remote set-url` [origin] ssh://git@github.com/[username]/[repository-name].git | Set a repository's origin branch to SSH                  |
-| `git push --set-upstream` [origin] [branch name]                                     | Set branch to remote repository                          |
-| `git push -u` [origin] [branch name]                                                 | Push changes to remote repository OR remember the branch |
+| `git push --set-upstream [origin] [branch name]                                     | Set branch to remote repository                          |
+| `git push -u` [origin] [branch name]                                                 | Push changes to the remote repository OR remember the branch |
 | `git push`                                                                           | Push changes to remote repository OR remembered branch   |
 | `git push` [origin] [branch name]                                                    | Push a branch to your remote repository                  |
 | `git push -f`                                                                        | Force push a branch to your remote repository            |
 | `git fetch`                                                                          | Fetch changes from remote repository branch              |
-| `git fetch --all`                                                                    | Fetch all changes form remote repository                 |
+| `git fetch --all`                                                                    | Fetch all changes from remote repository                 |
 | `git pull`                                                                           | Update local repository with new fetched changes         |
 | `git pull` [origin] [branch name]                                                    | Pull changes from remote repository                      |
 
@@ -80,7 +80,7 @@
 | **`git add`** [file-name/folder-name] | Add single file or folder                         |
 | **`git add -all`**                    | Add all new and changed files to the staging area |
 | **`git add -a`**                      | Add all new and changed files to the staging area |
-| `git add -A`                                | Add all new and changed files to the staging are  |
+| `git add -A`                                | Add all new and changed files to the staging area  |
 | **`git add .`**                       | Add all new and changed files to the staging area |
 
 #### Commit Commands
@@ -94,3 +94,11 @@
 | `git log --oneline`                            | View changes (briefly)                                                                               |
 | `git diff` [source branch] [target branch]     | Preview changes before merging                                                                       |
 | `git log --pretty=format:"%h - %an, %ar : %s"` | Show all commit with format                                                                          |
+
+#### Sub-module Commands
+
+| Command                                          | Description                                                                                          |
+| ------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
+| `git submodule add https://github.com//[username]/[repository-name].git `         |  Add repository as a submodule                                   |
+| `git submodule add /path/to/local/repo`        | Add the local repository as a submodule |
+| `git submodule add`  | Git will clone the local repository and add it as a submodule to your project |
