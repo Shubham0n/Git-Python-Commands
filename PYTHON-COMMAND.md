@@ -49,13 +49,11 @@
 | `django-admin startproject projectname`                            | Creates a new Django project.  |
 | `python manage.py test`                                            | Runs tests for all the test cases in your Django project.   |
 | `python manage.py testserver`                                      | Runs a development server with the test database.   |
-| ``                                                                 |    |
-| ``                                                                 |    |
+| `python manage.py collectstatic`                                   | Collects static files from all installed apps into a single directory.   |
+| `python manage.py testserver`                                      | Runs a development server using the test database.   |
 | `python manage.py runserver`                                       | Runserver your local server   |
 | `python manage.py createsuperuser`                                 | Create superuser   |
 | `python manage.py makemigrations`                                  | Create migrations   |
 | `python manage.py migrate`                                         | Apply migration to database   |
-| ``                                                                 |    |
-| ``                                                                 |    |
 | `python manage.py --help`                                          | Display a list of available commands  |
 
