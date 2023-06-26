@@ -17,7 +17,8 @@
 | `pip freeze`                      | Check Status                      |
 | `pip -m venv env`                 | Untracked files                   |
 | `\env\Scripts\activate`           | File add to stage                 |
-| `deactivate`                      | MOdified files                    |
+| `deactivate`                      | Modified files                    |
+| `pip freeze > requirement.txt`    | Add all install package add into the requirement.txt                     |
 
 #### Django Command
 
