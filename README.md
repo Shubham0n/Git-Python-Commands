@@ -102,3 +102,14 @@
 | `git submodule add https://github.com//[username]/[repository-name].git `         |  Add repository as a submodule                                   |
 | `git submodule add /path/to/local/repo`        | Add the local repository as a submodule |
 | `git submodule add`  | Git will clone the local repository and add it as a submodule to your project |
+
+#### Generate SSH Key
+
+| Command                                     | Description                                                           |
+| ------------------------------------------- | --------------------------------------------------------------------- |
+| ssh-keygen                                  | Generate ssh key                                                      |
+| /Users/[username]/.ssh/id_rsa_[name]        | Enter the file in which to save the key (mac os)                         |
+| cat/.ssh/id_rsa_[name].pub                  | show ssh key (mac os)                                                |
+| type c:\users\\[user-name]\\.ssh\id_rsa.pub | show ssh key (window)                                                |
+| cat ~/.ssh/config                           | List of all host and identity files (mac os)                           |
+| vi ~/.ssh/config                            | Open the SSH client configuration file in the Vi text editor (mac os) |
