@@ -56,4 +56,5 @@
 | `python manage.py makemigrations`                                  | Create migrations   |
 | `python manage.py migrate`                                         | Apply migration to database   |
 | `python manage.py --help`                                          | Display a list of available commands  |
+| `python manage.py migrate app_name zero`                           | Remove all migrations Zero   |
 
