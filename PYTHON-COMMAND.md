@@ -58,3 +58,15 @@
 | `python manage.py --help`                                          | Display a list of available commands  |
 | `python manage.py migrate app_name zero`                           | Remove all migrations Zero   |
 
+#### Case for python 
+
+| Name                     | Case          |
+| ------------------------ | ------------- |
+| class                    | Camel_Case    |
+| function                 | computer_fun  |
+| package                  | all lower     |
+| module                   | all lower     |
+| variable                 | CamelCase     |
+| Global                   | __Global__    |
+| Instance Variable        |  Foo._Foo_a.  |
+| constants                |  MAX_NUMBERS  |
