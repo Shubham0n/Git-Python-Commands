@@ -5,18 +5,18 @@
 | Command                                              | Description                                                                        |
 | :--------------------------------------------------- | :--------------------------------------------------------------------------------- |
 | `git --version`                                    | Check Git version                                                                  |
-| **`git config --global user.name`** [name]   | Sor set Global configuration of User Name and also check config without adding name |
-| **`git config --global user.email`** [email] | Set Global configuration of User Email and also check config without adding email  |
-| **`git config user.name`**                   | Set Username config in particular folder                                           |
-| **`git config user.email`**                  | Set Email config in particular folder                                              |
+| `git config --global user.name` [name]   | Sor set Global configuration of User Name and also check config without adding name |
+| `git config --global user.email` [email] | Set Global configuration of User Email and also check config without adding email  |
+| `git config user.name`                   | Set Username config in particular folder                                           |
+| `git config user.email`                  | Set Email config in particular folder                                              |
 
 #### Git Status
 
 | Command                          | Type of Result | Description                                                    |
 | -------------------------------- | -------------- | -------------------------------------------------------------- |
-| **`git status`**         | T (Tracked)    | Those files add to the repository (Git knows that file)        |
-|                                  | U (Untracked)  | Working Directory files/ Those files is not added in the repository |
-| **`git status --short`** |                | Check Status                                                   |
+| `git status`         | T (Tracked)    | Those files add to the repository (Git knows that file)        |
+|                                  | U (Untracked)  | Working Directory files/ Those files are not added to the repository |
+| `git status --short` |                | Check Status                                                   |
 |                                  | ??             | Untracked files                                                |
 |                                  | A              | File add to stage                                              |
 |                                  | M              | MOdified files                                                 |
