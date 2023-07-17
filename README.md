@@ -113,3 +113,25 @@
 | type c:\users\\[user-name]\\.ssh\id_rsa.pub | show ssh key (window)                                                |
 | cat ~/.ssh/config                           | List of all host and identity files (mac os)                           |
 | vi ~/.ssh/config                            | Open the SSH client configuration file in the Vi text editor (mac os) |
+| git clone git@[Host]:Shubham0-n/Git-Python-Commands.git | To use a specific SSH key when cloning a project from a different host, you need to update the SSH configuration file (~/.ssh/config) to define a custom host and associate it with the desired SSH key. |
+
+
+#### Generate SSH Key of (cat ~/.ssh/config)
+Host github.com-Ram
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_Ram
+  IdentitiesOnly yes
+
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa
+  IdentitiesOnly yes
+ 
+Host github.com-Shubham2
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_shubham
+  IdentitiesOnly yes
+
