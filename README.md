@@ -129,7 +129,7 @@ Host github.com
   IdentityFile ~/.ssh/id_rsa
   IdentitiesOnly yes
  
-Host github.com-Shubham2
+Host github.com-Shubham
   HostName github.com
   User git
   IdentityFile ~/.ssh/id_shubham
