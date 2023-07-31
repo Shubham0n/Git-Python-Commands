@@ -109,7 +109,7 @@
 | ------------------------------------------- | --------------------------------------------------------------------- |
 | ssh-keygen                                  | Generate ssh key                                                      |
 | /Users/[username]/.ssh/id_rsa_[name]        | Enter the file in which to save the key (mac os)                         |
-| cat/.ssh/id_rsa_[name].pub                  | show ssh key (mac os)                                                |
+| cat ~/.ssh/id_rsa_[name].pub                  | show ssh key (mac os)                                                |
 | type c:\users\\[user-name]\\.ssh\id_rsa.pub | show ssh key (window)                                                |
 | cat ~/.ssh/config                           | List of all host and identity files (mac os)                           |
 | vi ~/.ssh/config                            | Open the SSH client configuration file in the Vi text editor (mac os) |
