@@ -78,7 +78,7 @@ You should first ensure that Python is correctly installed and its 'Scripts' fol
 Add path in system variable -
 1. C:\Users\<YourUsername>\AppData\Local\Programs\Python\PythonXY
 2. C:\Users\<YourUsername>\AppData\Local\Programs\Python\PythonXY\Scripts
-3. 
+
 | command                                                                                                                |
 | -----------------------------------------------------------------------------------------------------------------------|
 | C:\Users\[YourUsername]>pip install venv                                                                               |
