@@ -83,4 +83,4 @@ Add path in system variable -
 | -----------------------------------------------------------------------------------------------------------------------|
 | C:\Users\[YourUsername]>pip install venv                                                                               |
 | D:\[YourProject]>powershell                                                                                            |
-| PS D:\[YourProject]> virtualenv -p C:\Users\[YourUsername]\AppData\Local\Programs\Python\Python311\python.exe .venv    ||
+| PS D:\[YourProject]> virtualenv -p C:\Users\\[YourUsername]\AppData\Local\Programs\Python\Python311\python.exe .venv    ||
