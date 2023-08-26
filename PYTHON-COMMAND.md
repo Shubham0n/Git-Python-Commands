@@ -93,3 +93,4 @@ Add path in system variable -
 | ------------------------------------------------| ----------------------------- |
 | `python -m pip install pylint`                  | install pylint                |
 | `pylint --generate-rcfile > pylintrc`           | generate a new pylintrc file  |
+| `pylint myproject/`                             | run pylint for project        |
