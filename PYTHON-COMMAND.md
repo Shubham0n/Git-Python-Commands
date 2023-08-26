@@ -74,13 +74,22 @@
 
 
 #### Create a Virtual environment with different python version 
+
 You should first ensure that Python is correctly installed and its 'Scripts' folder is in your PATH. 
 Add path in system variable -
 1. C:\Users\<YourUsername>\AppData\Local\Programs\Python\PythonXY
 2. C:\Users\<YourUsername>\AppData\Local\Programs\Python\PythonXY\Scripts
 
-| command                                                                                                                |
-| -----------------------------------------------------------------------------------------------------------------------|
+| command                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------|
 | C:\Users\\[YourUsername]>pip install venv                                                                               |
 | D:\\[YourProject]>powershell                                                                                            |
-| PS D:\[YourProject]> virtualenv -p C:\Users\\[YourUsername]\AppData\Local\Programs\Python\Python311\python.exe .venv    ||
+| PS D:\[YourProject]> virtualenv -p C:\Users\\[YourUsername]\AppData\Local\Programs\Python\Python311\python.exe .venv    |
+
+
+#### Add pylint 
+
+| command                                         | Description                   |
+| ------------------------------------------------| ----------------------------- |
+| python -m pip install pylint                    | install pylint                |
+| pylint --generate-rcfile > pylintrc             | generate a new pylintrc file  |
