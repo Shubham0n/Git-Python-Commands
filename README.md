@@ -116,22 +116,32 @@
 | git clone git@[Host]:Shubham0-n/Git-Python-Commands.git | To use a specific SSH key when cloning a project from a different host, you need to update the SSH configuration file (~/.ssh/config) to define a custom host and associate it with the desired SSH key. |
 
 
-#### Generate SSH Key of (cat ~/.ssh/config)
-Host github.com-Ram
-  HostName github.com
-  User git
-  IdentityFile ~/.ssh/id_rsa_Ram
-  IdentitiesOnly yes
+#### For set configuration you need to create config file in .ssh folder:
+mac os  - touch config
+window(Powershell) - New-Item -Name config
 
-Host github.com
-  HostName github.com
-  User git
-  IdentityFile ~/.ssh/id_rsa
-  IdentitiesOnly yes
- 
-Host github.com-Shubham
-  HostName github.com
-  User git
-  IdentityFile ~/.ssh/id_shubham
-  IdentitiesOnly yes
+#### For open config file:
+code config (File open in VS code)
+notepad config (File open in notepad)
+
+
+#### Generate SSH Key of (cat ~/.ssh/config)
+#### Update the file with below example, Please set the Host and IdentityFile Name
+</br>Host github.com-Ram
+</br>  HostName github.com
+</br>  User git
+</br>  IdentityFile ~/.ssh/id_rsa_Ram
+</br>  IdentitiesOnly yes
+</br>
+</br>Host github.com
+</br>  HostName github.com
+</br>  User git
+</br>  IdentityFile ~/.ssh/id_rsa
+</br>  IdentitiesOnly yes
+</br> 
+</br>Host github.com-Shubham
+</br>  HostName github.com
+</br>  User git
+</br>  IdentityFile ~/.ssh/id_shubham
+</br>  IdentitiesOnly yes
 
