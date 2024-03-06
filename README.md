@@ -61,7 +61,7 @@ Host github.com-`SET HOST`
 ##### Clone with different host
 | Command                                                    | Description                                                           |
 | -----------------------------------------------------------| --------------------------------------------------------------------- |
-|git clone git@`SET HOST`:`USERNAME`/Git-Python-Commands.git | To use a specific SSH key when cloning a project from a different host, you need to update the SSH configuration file (~/.ssh/config) to define a custom host and associate it with the desired SSH key.   
+|git clone git@github.com-`SET HOST`:`USERNAME`/Git-Python-Commands.git | To use a specific SSH key when cloning a project from a different host, you need to update the SSH configuration file (~/.ssh/config) to define a custom host and associate it with the desired SSH key.   
 
 
 ## Init
